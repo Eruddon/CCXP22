@@ -1,0 +1,255 @@
+*{
+    font-family: 'Verdana';
+    color: black;
+    font-style: normal;
+    margin: 0;
+    height: 500px;
+}
+
+header {
+    width: 100%;
+    height: 118px;
+    background: #FFD900;
+}
+
+#ccxp {
+    padding: 27px 0px 0px 58px;
+    width: 202px;
+    height: 63px;
+}
+
+#blckrox {
+    width: 802px;
+    height: 694px;
+    background-color: #514988;
+}
+
+.colunas {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#titt {
+    position: absolute;
+    width: 676px;
+    height: 149px;
+    left: 58px;
+    top: 149px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F3C61F;
+}
+
+#subtt {
+    position: absolute;
+    color: #ffffff;
+    width: 676px;
+    height: 149px;
+    left: 168px;
+    top: 250px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 85px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#texto {
+    position: absolute;
+    width: 678px;
+    height: 350px;
+    left: 64px;
+    top: 400px;
+
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+#dia { 
+    position: absolute;
+    width: 239px;
+    height: 175px;
+    left: 802px;
+    top: 103px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #514988;
+    padding: 0px 0px 0px 25px;
+}
+
+#hora {
+    position: absolute;
+    width: 270px;
+    height: 175px;
+    left: 1050px;
+    top: 103px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #514988;
+    padding: 0px 0px 0px 45px;
+}
+
+#minuto{
+    position: absolute;
+    width: 270px;
+    height: 175px;
+    left: 1300px;
+    top: 103px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #514988;
+    padding: 0px 0px 0px 40px;
+} 
+
+#segundo{
+    position: absolute;
+    width: 239px;
+    height: 175px;
+    left: 1530px;
+    top: 103px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #514988;
+    padding: 0px 0px 0px 40px;
+}
+
+#msgvid {
+    font-weight: 700;
+    color: #E33881;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    position: absolute;
+    width: 741px;
+    height: 36px;
+    left: 942px;
+    top: 230px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #E33881;
+}
+
+#msging {
+    position: absolute;
+    width: 800px;
+    height: 33px;
+    left: 89px;
+    top: 827px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F3C61F;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    display: flex;
+    text-align: center;
+    width: 204px;
+    height: 204px;
+    font-family: 'Raleway';
+    font-size: 36px;
+}
+
+#ing1 {
+    position: absolute;
+    width: 204px;
+    height: 204px;
+    left: 81px;
+    top: 875px;
+}
+
+#ing2 {
+    position: absolute;
+    width: 204px;
+    height: 204px;
+    left: 285px;
+    top: 875px;
+}
+
+#ing3 {
+    position: absolute;
+    width: 204px;
+    height: 204px;
+    left: 489px;
+    top: 875px;
+}
+
+#ing4 {
+    position: absolute;
+    width: 204px;
+    height: 204px;
+    left: 693px;
+    top: 875px;
+}
+
+video{
+    position: absolute;
+    width: 880px;
+    height: 510px;
+    left: 880px;
+    top: 284px;
+    
+}
+
+button {
+    display: block;
+    font-size: 42px;
+    border:0;
+    color: #ffffff;
+    background-color: #514988;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: all ease 0.3s;
+    position: absolute;
+    width: 596px;
+    height: 148px;
+    left: 1094px;
+    top: 880px;
+}
+
+button:hover {
+    background-color: #F3C61F;
+}
